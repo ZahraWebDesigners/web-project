@@ -5,3 +5,15 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+.wrapper{
+    max-width: 1130px;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .card{
+    width: calc(33% - 13px);
+}
+.wrapper .card img{
+    width:  100%;
+}
