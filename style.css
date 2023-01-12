@@ -5,15 +5,29 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+body{
+    display:flex;
+    padding:0 20px;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background:blueviolet;
+}
 .wrapper{
-    max-width: 1130px;
-    display:  flex;
-    align-items: center;
-    justify-content: space-between;
+    max-width:1130px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 .wrapper .card{
     width: calc(33% - 13px);
+    border-radius: 3px;
+    background: #fff;
 }
 .wrapper .card img{
     width:  100%;
+    border: radius 3px; 
+}
+.wrapper .card .content{
+    padding: 10px 20px 22px 20px;
 }
