@@ -11,7 +11,7 @@ body{
     align-items:center;
     justify-content:center;
     min-height:100vh;
-    background:blueviolet;
+    background: blueviolet;
 }
 .wrapper{
     max-width:1130px;
@@ -30,4 +30,42 @@ body{
 }
 .wrapper .card .content{
     padding: 10px 20px 22px 20px;
+}
+.card .content .row,
+.card .content .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.content .row .details span{
+    font-size: 22px;
+    font-weight: 500;
+}
+.content .row .details p{
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+}
+.content .buttons{
+    margin-top: 20px;
+}
+.content .buttons button{
+    width: 100%;
+    outline: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 2px solid #8a2be2;
+    cursor: pointer;
+    text-transform: uppercase; 
+}
+.buttons button:first-child{
+    color: #8a2be2;
+    background: #fff;
+    margin-right: 10px;
+}
+.buttons button:last-child{
+    color: #fff;
+    background: #8a2be2;
+    margin-left: 10px;
 }
